@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
-  m_Name: HomelessNPCGraph
+  m_Name: HomelessNPCwithoutmoneyGraph
   m_EditorClassIdentifier: 
-  <FileName>k__BackingField: HomelessNPC
+  <FileName>k__BackingField: HomelessNPCwithoutmoney
   <Groups>k__BackingField: []
   <Nodes>k__BackingField:
   - <ID>k__BackingField: 7d682395-c15d-47a9-9095-8aa009fde40f
@@ -22,7 +22,7 @@ MonoBehaviour:
     <priority>k__BackingField: 0
     <Choices>k__BackingField:
     - <Text>k__BackingField: Yes, please.
-      <NodeID>k__BackingField: ba069464-9f03-4b9a-a627-437ed5b3e3c2
+      <NodeID>k__BackingField: 8b9d398e-2099-4a4b-9c00-1837680d1e92
     - <Text>k__BackingField: No, sorry.
       <NodeID>k__BackingField: fe16dbab-e830-4a54-abb9-3d530c9093fe
     <GroupID>k__BackingField: 
@@ -39,17 +39,6 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 163.5, y: 232.5}
-  - <ID>k__BackingField: ba069464-9f03-4b9a-a627-437ed5b3e3c2
-    <Name>k__BackingField: PayForScissors
-    <Speaker>k__BackingField: 
-    <Text>k__BackingField: Event name...
-    <priority>k__BackingField: 0
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: Next
-      <NodeID>k__BackingField: 92a9e8a9-6c0e-41e5-be14-5eacfd1b9eca
-    <GroupID>k__BackingField: 
-    <DialogueType>k__BackingField: 2
-    <Position>k__BackingField: {x: 140.5, y: -12.5}
   - <ID>k__BackingField: 92a9e8a9-6c0e-41e5-be14-5eacfd1b9eca
     <Name>k__BackingField: RecieveScissors
     <Speaker>k__BackingField: 
@@ -72,12 +61,35 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 937, y: 217}
+  - <ID>k__BackingField: ba069464-9f03-4b9a-a627-437ed5b3e3c2
+    <Name>k__BackingField: PayForScissors
+    <Speaker>k__BackingField: 
+    <Text>k__BackingField: Event name...
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: 92a9e8a9-6c0e-41e5-be14-5eacfd1b9eca
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 2
+    <Position>k__BackingField: {x: 140.5, y: -12.5}
+  - <ID>k__BackingField: 8b9d398e-2099-4a4b-9c00-1837680d1e92
+    <Name>k__BackingField: BROKE
+    <Speaker>k__BackingField: Homeless
+    <Text>k__BackingField: You don't have enough money. Come back later.
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Okay.
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 97, y: -223.5}
   <OldGroupNames>k__BackingField: []
   <OldUngroupedNodeNames>k__BackingField:
   - HomelessStart
   - NOscissors
-  - PayForScissors
   - RecieveScissors
   - Homelesssaysthx
+  - PayForScissors
+  - BROKE
   <OldGroupedNodeNames>k__BackingField:
     list: []

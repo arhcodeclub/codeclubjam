@@ -17,9 +17,9 @@ MonoBehaviour:
   <Text>k__BackingField: Do you want to buy scissors for 1 dollar?
   <Choices>k__BackingField:
   - <Text>k__BackingField: Yes, please.
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 4e2b6f98421ec4a638b9bf32155c287c, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: ddac49e243d78494293b515104545d2d, type: 2}
   - <Text>k__BackingField: No, sorry.
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 49b32b1e803e44077b02d28e9cf815d1, type: 2}
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: dcfa8940550b14d3c81a86ccca5c00d5, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 1
   <priority>k__BackingField: 0

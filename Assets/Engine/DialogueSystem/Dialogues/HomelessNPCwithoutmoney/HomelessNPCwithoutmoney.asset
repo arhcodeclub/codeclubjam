@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caaa76378291a144d849f29230be0a5a, type: 3}
+  m_Name: HomelessNPCwithoutmoney
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: HomelessNPCwithoutmoney
+  <DialogueGroups>k__BackingField:
+    list: []
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: 67b6dde2ded63418ab6153a9a26ffbb3, type: 2}
+  - {fileID: 11400000, guid: dcfa8940550b14d3c81a86ccca5c00d5, type: 2}
+  - {fileID: 11400000, guid: 823d8f2a2b715417c853185ca0f4440c, type: 2}
+  - {fileID: 11400000, guid: 0c7570bdb713f4c6091cb7c76d0ec1a4, type: 2}
+  - {fileID: 11400000, guid: 57ee6d0e0c96a4d619b34842be270bce, type: 2}
+  - {fileID: 11400000, guid: ddac49e243d78494293b515104545d2d, type: 2}
