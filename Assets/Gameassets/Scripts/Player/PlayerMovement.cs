@@ -7,6 +7,8 @@ public class PlayerManager : MonoBehaviour
     private Rigidbody2D body;
     private Vector2 input;
 
+    public GameObject cam;
+
     public float speed = 5.0f; 
 
     private void Awake()
@@ -17,6 +19,8 @@ public class PlayerManager : MonoBehaviour
     private void FixedUpdate()
     {
         body.velocity = input * speed;
+        
+        cam.transform.position = Vector3.Lerp(cam.transform.position, new Vector3(transform.position.x, transform.position.y, -10), 0.1f);
     }
 
     private void OnMove(InputValue inputValue)
