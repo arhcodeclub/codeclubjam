@@ -21,12 +21,18 @@ public class Interactable : MonoBehaviour
         float distance1 = Vector2.Distance(transform.position, player.transform.position);
 
         if (distance1 < range) {
-            text.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E)) {
                 Interact();
             }
+            if (text != null)
+            {
+                text.SetActive(true);
+            }
         } else {
-            text.SetActive(false);
+            if (text != null)
+            {
+                text.SetActive(false);
+            }
         }
     }
 
