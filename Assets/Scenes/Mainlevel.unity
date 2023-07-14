@@ -19663,7 +19663,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 356157719421424344, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_Name
-      value: genericnpc
+      value: Daughter of CEO
       objectReference: {fileID: 0}
     - target: {fileID: 1072375889731324166, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_RootOrder

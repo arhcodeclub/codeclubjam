@@ -14,13 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: Opensup
   <Speaker>k__BackingField: Little girl
-  <Text>k__BackingField: Yes, I lost my teddybear, and I want a new one, but I don't
-    have the money!
+  <Text>k__BackingField: Yes, I lost my teddybear.
   <Choices>k__BackingField:
-  - <Text>k__BackingField: I'll buy you a new one!
+  - <Text>k__BackingField: I'll find him!
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: e19f7b4d124aa47df94dd0fb0e083864, type: 2}
-  - <Text>k__BackingField: Sorry, but I'm poor too, good luck with getting a new
-      one!
+  - <Text>k__BackingField: Sorry, I don't know where he is.
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 1c7f41d6898744825b3a30e3e709286e, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 0

@@ -54,21 +54,6 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 2
     <Position>k__BackingField: {x: -486.5, y: 892.5}
-  - <ID>k__BackingField: c8ca65eb-8bef-4273-9a71-81c6141ff99d
-    <Name>k__BackingField: Opensup
-    <Speaker>k__BackingField: Little girl
-    <Text>k__BackingField: Yes, I lost my teddybear, and I want a new one, but I
-      don't have the money!
-    <priority>k__BackingField: 0
-    <Choices>k__BackingField:
-    - <Text>k__BackingField: I'll buy you a new one!
-      <NodeID>k__BackingField: 2443f095-9a1b-4138-a4b4-6fe225d084d9
-    - <Text>k__BackingField: Sorry, but I'm poor too, good luck with getting a new
-        one!
-      <NodeID>k__BackingField: acb1c243-4cbe-4240-a77f-9b6b472cf77f
-    <GroupID>k__BackingField: 
-    <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: -167, y: 805}
   - <ID>k__BackingField: acb1c243-4cbe-4240-a77f-9b6b472cf77f
     <Name>k__BackingField: playerbroke
     <Speaker>k__BackingField: Little girl
@@ -114,15 +99,28 @@ MonoBehaviour:
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 2
     <Position>k__BackingField: {x: 374, y: 1474}
+  - <ID>k__BackingField: c8ca65eb-8bef-4273-9a71-81c6141ff99d
+    <Name>k__BackingField: Opensup
+    <Speaker>k__BackingField: Little girl
+    <Text>k__BackingField: Yes, I lost my teddybear.
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: I'll find him!
+      <NodeID>k__BackingField: 2443f095-9a1b-4138-a4b4-6fe225d084d9
+    - <Text>k__BackingField: Sorry, I don't know where he is.
+      <NodeID>k__BackingField: acb1c243-4cbe-4240-a77f-9b6b472cf77f
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: -167, y: 805}
   <OldGroupNames>k__BackingField: []
   <OldUngroupedNodeNames>k__BackingField:
   - Stupidgirl
   - StartGirl
   - RemoveTeddy
-  - Opensup
   - playerbroke
   - Presentforyou
   - buyingbye
   - RecieveKey
+  - Opensup
   <OldGroupedNodeNames>k__BackingField:
     list: []
