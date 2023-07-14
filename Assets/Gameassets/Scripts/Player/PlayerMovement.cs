@@ -28,16 +28,6 @@ public class PlayerManager : MonoBehaviour
         input = inputValue.Get<Vector2>();
     }
 
-    private void OnLook(InputValue inputValue)
-    {
-        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
-        if (hit.collider && hit.collider.gameObject.tag == "Interactable") {
-            // todo: draw text above object
-            Debug.Log("Interactable");
-        }
-    }
-
     private void OnFire(InputValue inputValue)
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
