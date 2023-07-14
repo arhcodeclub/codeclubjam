@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: af4584144fb614b19ace4ed62b9d7b0b
+guid: b724a499366e54f2d9ce9f4101a53704
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -532540209978105453
-    second: IMG_4333_0
+      213: -6229175022460956253
+    second: IMG_4334_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -94,41 +94,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_4333_0
+      name: IMG_4334_0
       rect:
         serializedVersion: 2
-        x: 303
-        y: 0
-        width: 90
-        height: 896
+        x: 271
+        y: 199
+        width: 242
+        height: 410
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 391a4a320890c98f0800000000000000
-      internalID: -532540209978105453
+      spriteID: 3a19a7612568d89a0800000000000000
+      internalID: -6229175022460956253
       vertices: []
       indices: 
       edges: []
@@ -152,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      IMG_4333_0: -532540209978105453
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

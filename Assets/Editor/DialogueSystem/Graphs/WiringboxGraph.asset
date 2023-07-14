@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: WiringboxGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Wiringbox
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 90fd32d4-2792-4321-a2f6-80137bbdf2a5
+    <Name>k__BackingField: Whichwire
+    <Speaker>k__BackingField: Wiringbox
+    <Text>k__BackingField: You do not have a wirecutter
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Do nothing
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 534.4, y: 280}
+  - <ID>k__BackingField: 2a76ea64-f39d-4453-aa76-076c8398114c
+    <Name>k__BackingField: Cutwires
+    <Speaker>k__BackingField: Wiringbox
+    <Text>k__BackingField: Which wire do you cut
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Red
+      <NodeID>k__BackingField: 9fc68caa-8fe7-4bcc-afa2-67f097c9662b
+    - <Text>k__BackingField: Blue
+      <NodeID>k__BackingField: b77d14f9-3c1f-4578-9f7f-057c28535628
+    - <Text>k__BackingField: Green
+      <NodeID>k__BackingField: 9fc68caa-8fe7-4bcc-afa2-67f097c9662b
+    - <Text>k__BackingField: Yellow
+      <NodeID>k__BackingField: 9fc68caa-8fe7-4bcc-afa2-67f097c9662b
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 555.2, y: 702.39996}
+  - <ID>k__BackingField: 9fc68caa-8fe7-4bcc-afa2-67f097c9662b
+    <Name>k__BackingField: Die
+    <Speaker>k__BackingField: GM
+    <Text>k__BackingField: Die
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 2
+    <Position>k__BackingField: {x: 943.2, y: 611.2}
+  - <ID>k__BackingField: b77d14f9-3c1f-4578-9f7f-057c28535628
+    <Name>k__BackingField: Victory
+    <Speaker>k__BackingField: Reactor
+    <Text>k__BackingField: The reactor shuts down
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: 8b25de03-f9ff-4f2e-b1af-a1ee4fd6078b
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 951.2, y: 895.2}
+  - <ID>k__BackingField: 8b25de03-f9ff-4f2e-b1af-a1ee4fd6078b
+    <Name>k__BackingField: Wingame
+    <Speaker>k__BackingField: GM
+    <Text>k__BackingField: WIn
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 2
+    <Position>k__BackingField: {x: 1668.7999, y: 896}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodeNames>k__BackingField:
+  - Whichwire
+  - Cutwires
+  - Die
+  - Victory
+  - Wingame
+  <OldGroupedNodeNames>k__BackingField:
+    list: []
