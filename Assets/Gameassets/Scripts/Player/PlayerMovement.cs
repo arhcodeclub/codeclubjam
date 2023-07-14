@@ -28,8 +28,9 @@ public class PlayerManager : MonoBehaviour
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
-        if (hit.collider.gameObject.tag == "Interactable") {
+        if (hit.collider && hit.collider.gameObject.tag == "Interactable") {
             // todo: draw text above object
+            Debug.Log("Interactable");
         }
     }
 
@@ -37,8 +38,9 @@ public class PlayerManager : MonoBehaviour
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
-        if (hit.collider.gameObject.tag == "Interactable") {
+        if (hit.collider && hit.collider.gameObject.tag == "Interactable") {
             // todo: interact with object
+            Debug.Log("Interacted");
         }
     }
 }
