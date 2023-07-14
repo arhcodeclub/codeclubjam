@@ -4,15 +4,6 @@ using UnityEngine;
 
 public class itemslot : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public item itemInSlot;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
