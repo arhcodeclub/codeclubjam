@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: NPC5
   <Speaker>k__BackingField: Little kid
-  <Text>k__BackingField: Wanna play with me?
+  <Text>k__BackingField: I got the teddybear of the CEO's daughter. Would you bring
+    it back to her?
   <Choices>k__BackingField:
-  - <Text>k__BackingField: No, sorry.
+  - <Text>k__BackingField: No, you can do it yourself.
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: bdbdc9a1171f844af958687b69ce18db, type: 2}
-  - <Text>k__BackingField: Yes, what are we playing?
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: d3390a3fdbd7a4db0856e039144e9902, type: 2}
+  - <Text>k__BackingField: Yes, if you give it to me.
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 75ba00485a7be48be8969fa254ca0905, type: 2}
   <DialogueType>k__BackingField: 1
   <IsStartingDialogue>k__BackingField: 1
   <priority>k__BackingField: 0
