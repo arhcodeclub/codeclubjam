@@ -18,42 +18,55 @@ MonoBehaviour:
   - <ID>k__BackingField: 222492f1-3f01-495d-ae2c-b343da02f87a
     <Name>k__BackingField: NPC5
     <Speaker>k__BackingField: Little kid
-    <Text>k__BackingField: Wanna play with me?
+    <Text>k__BackingField: I got the teddybear of the CEO's daughter. Would you bring
+      it back to her?
     <priority>k__BackingField: 0
     <Choices>k__BackingField:
-    - <Text>k__BackingField: No, sorry.
+    - <Text>k__BackingField: No, you can do it yourself.
       <NodeID>k__BackingField: 3d9f0369-8aa8-4b41-97c8-2ff67d3dc309
-    - <Text>k__BackingField: Yes, what are we playing?
-      <NodeID>k__BackingField: b13d6cc2-ba5b-4877-8b9c-fbb56f5dbbe2
+    - <Text>k__BackingField: Yes, if you give it to me.
+      <NodeID>k__BackingField: e3bba4fa-5de5-4360-b89f-790204da44ee
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
     <Position>k__BackingField: {x: -455, y: -435.5}
   - <ID>k__BackingField: 3d9f0369-8aa8-4b41-97c8-2ff67d3dc309
     <Name>k__BackingField: NOPLAYING
     <Speaker>k__BackingField: Little kid
-    <Text>k__BackingField: Oh okay. Bye.
+    <Text>k__BackingField: Oh, uh, okoay.
     <priority>k__BackingField: 0
     <Choices>k__BackingField:
-    - <Text>k__BackingField: Bye, and have fun!
+    - <Text>k__BackingField: Bye!
       <NodeID>k__BackingField: 
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: -8.5, y: -669.5}
+  - <ID>k__BackingField: e3bba4fa-5de5-4360-b89f-790204da44ee
+    <Name>k__BackingField: RecieveTeddy
+    <Speaker>k__BackingField: 
+    <Text>k__BackingField: Event name...
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: b13d6cc2-ba5b-4877-8b9c-fbb56f5dbbe2
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 2
+    <Position>k__BackingField: {x: 337.5, y: -210}
   - <ID>k__BackingField: b13d6cc2-ba5b-4877-8b9c-fbb56f5dbbe2
     <Name>k__BackingField: Letsplay
     <Speaker>k__BackingField: Little kid
-    <Text>k__BackingField: Oh, you said yes? Sorry, it was a joke. Bye!
+    <Text>k__BackingField: Here you go, thank you for bringing it!
     <priority>k__BackingField: 0
     <Choices>k__BackingField:
-    - <Text>k__BackingField: Bye.
+    - <Text>k__BackingField: No problem, bye!
       <NodeID>k__BackingField: 
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: -428.5, y: -127}
+    <Position>k__BackingField: {x: -427.5, y: -127}
   <OldGroupNames>k__BackingField: []
   <OldUngroupedNodeNames>k__BackingField:
   - NPC5
   - NOPLAYING
+  - RecieveTeddy
   - Letsplay
   <OldGroupedNodeNames>k__BackingField:
     list: []

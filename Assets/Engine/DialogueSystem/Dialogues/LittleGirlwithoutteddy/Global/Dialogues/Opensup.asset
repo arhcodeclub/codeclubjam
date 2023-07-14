@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
+  m_Name: Opensup
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: Opensup
+  <Speaker>k__BackingField: Little girl
+  <Text>k__BackingField: Yes, I lost my teddybear, and I want a new one, but I don't
+    have the money!
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: I'll buy you a new one!
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: a1e2b94dcf24845d8806ddfaf622a048, type: 2}
+  - <Text>k__BackingField: Sorry, but I'm poor too, good luck with getting a new
+      one!
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: ba4963698bb8e48b2a421cce29b7acd4, type: 2}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0
+  <priority>k__BackingField: 0
