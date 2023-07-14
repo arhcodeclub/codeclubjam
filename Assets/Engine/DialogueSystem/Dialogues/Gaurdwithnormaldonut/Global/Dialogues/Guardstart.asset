@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
+  m_Name: Guardstart
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: Guardstart
+  <Speaker>k__BackingField: Guard
+  <Text>k__BackingField: You are not allowed to enter this building.
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Why not?
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: cfa13ca087fbe4c9796e6b321a33acec, type: 2}
+  - <Text>k__BackingField: Who are allowed to enter?
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: acf9a0f2265434ad8a8645bb7566b331, type: 2}
+  - <Text>k__BackingField: '*Give donut* and say: "Would you let me in if I give
+      you this?"'
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 2972b06c8314347dfbc662bebd5dab1c, type: 2}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 1
+  <priority>k__BackingField: 0
