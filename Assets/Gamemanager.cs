@@ -63,6 +63,15 @@ public class Gamemanager : MonoBehaviour
         }
     }
 
+    public void Die()
+    {
+        if (!exploded)
+        {
+            exploded = true;
+            StartCoroutine(Reactorexplode());
+        }
+    }
+
     public IEnumerator Reactorexplode()
     {
         explosionparticles.Play();
