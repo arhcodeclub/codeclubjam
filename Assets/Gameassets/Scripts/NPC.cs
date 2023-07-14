@@ -7,17 +7,17 @@ using UnityEngine;
 public class NPC : MonoBehaviour
 {
     public string requiredItem = "";
-    DSDialogueSO dialogueWithItem = null;
-    DSDialogueSO dialogueWithoutItem = null;
+    public DSDialogue dialogueWithItem = null;
+    public DSDialogue dialogueWithoutItem = null;
 
     public void startTalking()
     {
         if (inventorymanager.instance.checkItem(requiredItem))
         {
-            DialogueManager.instance.StartDialogue(dialogueWithItem, gameObject);
+            dialogueWithItem.StartDialogue();
         }else
         {
-            DialogueManager.instance.StartDialogue(dialogueWithoutItem, gameObject);
+            dialogueWithoutItem.StartDialogue();
         }
     }
 

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: Hallozeggen
+  m_Name: Hallo
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: Hallozeggen
-  <Speaker>k__BackingField: Guard
-  <Text>k__BackingField: Hoi
+  <DialogueName>k__BackingField: Hallo
+  <Speaker>k__BackingField: AAA
+  <Text>k__BackingField: AAAAA
   <Choices>k__BackingField:
-  - <Text>k__BackingField: Hoi
+  - <Text>k__BackingField: Next
     <NextDialogue>k__BackingField: {fileID: 0}
   <DialogueType>k__BackingField: 0
   <IsStartingDialogue>k__BackingField: 1

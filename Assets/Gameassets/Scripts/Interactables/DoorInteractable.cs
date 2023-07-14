@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Interactable : MonoBehaviour
+public class DoorInteractable : MonoBehaviour
 {
     public UnityEvent OnInteract;
     public GameObject player;

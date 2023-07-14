@@ -31,9 +31,12 @@ public class inventorymanager : MonoBehaviour
     public bool checkItem(string itemName)
     {
         foreach(var slot in slots) {
-            if (slot.itemInSlot.itemName == itemName)
+            if (slot.itemInSlot != null)
             {
-                return true;
+                if (slot.itemInSlot.itemName == itemName)
+                {
+                    return true;
+                }
             }
         }
         return false;
