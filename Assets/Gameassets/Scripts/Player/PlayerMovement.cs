@@ -9,7 +9,7 @@ public class PlayerManager : MonoBehaviour
 
     public GameObject cam;
 
-    public float speed = 5.0f; 
+    public float speed = 5.0f;
 
     private void Awake()
     {
@@ -19,6 +19,11 @@ public class PlayerManager : MonoBehaviour
     private void FixedUpdate()
     {
         body.velocity = input * speed;
+
+        // Change the sprite based on the direction the player is moving.
+        if (input.x > 0) {
+            
+        }
         
         cam.transform.position = Vector3.Lerp(cam.transform.position, new Vector3(transform.position.x, transform.position.y, -10), 0.1f);
     }
