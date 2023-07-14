@@ -125,10 +125,10 @@ TextureImporter:
       name: IMG_4294_0
       rect:
         serializedVersion: 2
-        x: 383
-        y: 119
-        width: 513
-        height: 570
+        x: 504
+        y: 120
+        width: 392
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,7 +145,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c260f441d8661460d87d21d92884abf4
     internalID: 0
     vertices: []
     indices: 
