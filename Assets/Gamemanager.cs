@@ -15,7 +15,17 @@ public class Gamemanager : MonoBehaviour
     bool anim = true;
     public ParticleSystem explosionparticles;
 
-    bool exploded = false;  
+    bool exploded = false;
+
+    public GameObject diedpanel;
+
+    private void Awake()
+    {
+        if (PlayerPrefs.GetInt("kaboom") == 1)
+        {
+            diedpanel.SetActive(true);
+        }
+    }
 
     void Update()
     {
@@ -57,6 +67,7 @@ public class Gamemanager : MonoBehaviour
     {
         explosionparticles.Play();
         yield return new WaitForSeconds(5);
+        PlayerPrefs.SetInt("kaboom", 1);
         SceneManager.LoadScene("MainLevel");
     }
 }
