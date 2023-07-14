@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: GaurdwithnormaldonutGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Gaurdwithnormaldonut
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: d05ce1f3-0c89-4a66-a50c-d863725ad9b0
+    <Name>k__BackingField: Employees
+    <Speaker>k__BackingField: Guard
+    <Text>k__BackingField: The employees are working, so they're in the building.
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Okay, bye.
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 980.5, y: -711}
+  - <ID>k__BackingField: 882ea46d-cc26-4b4c-a18b-c74ab0dc0153
+    <Name>k__BackingField: Wherestheboss
+    <Speaker>k__BackingField: Guard
+    <Text>k__BackingField: The boss is at home today. He lives in the house at the
+      end of the street.
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Thank you for the information! Bye!
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1035, y: -370.5}
+  - <ID>k__BackingField: f8ac5606-8288-45a7-8135-ac384373324e
+    <Name>k__BackingField: Scientistslocation
+    <Speaker>k__BackingField: Guard
+    <Text>k__BackingField: The scientists are in the lab. And guess where that is!
+      <wait 1000> Right, in the building!
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Okay, bye.
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 587, y: -192}
+  - <ID>k__BackingField: 38702a2b-12c4-4c4f-9991-c0959959c7d7
+    <Name>k__BackingField: Guardwhynot
+    <Speaker>k__BackingField: Guard
+    <Text>k__BackingField: Because you don't work here.
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Can I work here?
+      <NodeID>k__BackingField: 97b5e22c-739d-40f0-be46-bb945382a460
+    - <Text>k__BackingField: Okay, bye.
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 502, y: 102.5}
+  - <ID>k__BackingField: 97b5e22c-739d-40f0-be46-bb945382a460
+    <Name>k__BackingField: Applications
+    <Speaker>k__BackingField: Guard
+    <Text>k__BackingField: No, applications are closed.
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Okay, bye.
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1448, y: 122.5}
+  - <ID>k__BackingField: 5450c636-c032-4058-bc0b-317daf262f62
+    <Name>k__BackingField: AllowedtoEnter
+    <Speaker>k__BackingField: Guard
+    <Text>k__BackingField: The boss, employees and our scientists.
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Where are the employees?
+      <NodeID>k__BackingField: d05ce1f3-0c89-4a66-a50c-d863725ad9b0
+    - <Text>k__BackingField: Where is the boss?
+      <NodeID>k__BackingField: 882ea46d-cc26-4b4c-a18b-c74ab0dc0153
+    - <Text>k__BackingField: Where are the scientist?
+      <NodeID>k__BackingField: f8ac5606-8288-45a7-8135-ac384373324e
+    - <Text>k__BackingField: Okay, bye.
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 181, y: -596}
+  - <ID>k__BackingField: b8421fdb-237a-446f-be53-569f8e82201e
+    <Name>k__BackingField: Guardstart
+    <Speaker>k__BackingField: Guard
+    <Text>k__BackingField: You are not allowed to enter this building.
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Why not?
+      <NodeID>k__BackingField: 38702a2b-12c4-4c4f-9991-c0959959c7d7
+    - <Text>k__BackingField: Who are allowed to enter?
+      <NodeID>k__BackingField: 5450c636-c032-4058-bc0b-317daf262f62
+    - <Text>k__BackingField: '*Give donut* and say: "Would you let me in if I give
+        you this?"'
+      <NodeID>k__BackingField: d6615361-e1c1-41c4-a492-cb21e8ef0ab5
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: -810.5, y: -337}
+  - <ID>k__BackingField: b19ad52c-3d54-415a-93d8-08f92008a979
+    <Name>k__BackingField: GiveNormalDonutToGaurd
+    <Speaker>k__BackingField: Guard
+    <Text>k__BackingField: Yeah, sure, come in!
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Thank you!
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 133.5, y: 178.5}
+  - <ID>k__BackingField: d6615361-e1c1-41c4-a492-cb21e8ef0ab5
+    <Name>k__BackingField: DeleteNormalDonut
+    <Speaker>k__BackingField: 
+    <Text>k__BackingField: Event name...
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: b19ad52c-3d54-415a-93d8-08f92008a979
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 2
+    <Position>k__BackingField: {x: -250.5, y: 74.5}
+  - <ID>k__BackingField: 472429a9-696c-46f7-8098-38e2c6f3a975
+    <Name>k__BackingField: DeletePoisonousDonut
+    <Speaker>k__BackingField: 
+    <Text>k__BackingField: Event name...
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: 7567d805-7070-415e-8d63-2cda954c79b9
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 2
+    <Position>k__BackingField: {x: -366, y: 212.5}
+  - <ID>k__BackingField: 7567d805-7070-415e-8d63-2cda954c79b9
+    <Name>k__BackingField: GivePoisonousDonutToGaurd
+    <Speaker>k__BackingField: Guard
+    <Text>k__BackingField: '*dies*'
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Let's go!
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -56, y: 388}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodeNames>k__BackingField:
+  - Employees
+  - Wherestheboss
+  - Scientistslocation
+  - Guardwhynot
+  - Applications
+  - AllowedtoEnter
+  - Guardstart
+  - GiveNormalDonutToGaurd
+  - DeleteNormalDonut
+  - DeletePoisonousDonut
+  - GivePoisonousDonutToGaurd
+  <OldGroupedNodeNames>k__BackingField:
+    list: []

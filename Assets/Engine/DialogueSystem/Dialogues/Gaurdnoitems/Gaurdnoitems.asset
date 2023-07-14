@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caaa76378291a144d849f29230be0a5a, type: 3}
+  m_Name: Gaurdnoitems
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Gaurdnoitems
+  <DialogueGroups>k__BackingField:
+    list: []
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: b0ea4dedc0a8e45e8915ba333e53b482, type: 2}
+  - {fileID: 11400000, guid: e850bac781b3a4a9081d5bad080e9f49, type: 2}
+  - {fileID: 11400000, guid: d8a549bc2f09d49359fcae9e61af00b1, type: 2}
+  - {fileID: 11400000, guid: bcf516d53f66a4713b8be02d2fb89a3b, type: 2}
+  - {fileID: 11400000, guid: 461d4f29f743b4b739c7b5d522efd84f, type: 2}
+  - {fileID: 11400000, guid: 412e13f8a7c734ca6abcb3ca3c980349, type: 2}
+  - {fileID: 11400000, guid: 20cd84cc486bd49b5b4d30a40056208b, type: 2}
+  - {fileID: 11400000, guid: a3da66a3601204da7970e01068ec3dca, type: 2}
+  - {fileID: 11400000, guid: d543321301f724fa0ba7539cc7ba5230, type: 2}
+  - {fileID: 11400000, guid: e925d7cdd44ea41fd8c808ba5018ced4, type: 2}
+  - {fileID: 11400000, guid: a25307f8006984c31811d6f9b86f9039, type: 2}
