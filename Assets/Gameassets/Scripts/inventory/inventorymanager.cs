@@ -1,18 +1,55 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor.Build;
 using UnityEngine;
 
 public class inventorymanager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static inventorymanager instance;
+    public itemslot[] slots;
+
+    private void Awake()
     {
-        
+        instance = this;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AddItem(GameObject itemToAdd)
     {
-        
+        foreach (var slot in slots)
+        {
+            if (slot.itemInSlot == null)
+            {
+                Instantiate(itemToAdd);
+                itemToAdd.GetComponent<item>().slot = slot;
+                slot.itemInSlot = itemToAdd.GetComponent<item>();
+                itemToAdd.transform.SetParent(slot.transform, false);
+            }
+        }
     }
+    public bool checkItem(string itemName)
+    {
+        foreach(var slot in slots) {
+            if (slot.itemInSlot.itemName == itemName)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void RemoveItem(string itemName)
+    {
+        foreach(var slot in slots)
+        {
+            if (slot.itemInSlot.itemName == itemName)
+            {
+                Destroy(slot.itemInSlot);
+                slot.itemInSlot = null;
+            }
+        }
+    }
+
+
+
 }
