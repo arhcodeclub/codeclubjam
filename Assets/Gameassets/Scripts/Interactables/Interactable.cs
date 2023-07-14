@@ -6,8 +6,9 @@ using UnityEngine.Events;
 public class Interactable : MonoBehaviour
 {
     public UnityEvent OnInteract;
-    public float range = 1.5f;
+    public float range = 3f;
     GameObject player;
+    public Transform currentTransform;
 
     public GameObject text;
 
@@ -18,7 +19,7 @@ public class Interactable : MonoBehaviour
 
     private void FixedUpdate() {
 
-        float distance1 = Vector2.Distance(transform.position, player.transform.position);
+        float distance1 = Vector2.Distance(currentTransform.position, player.transform.position);
 
         if (distance1 < range) {
             if (Input.GetKeyDown(KeyCode.E)) {
