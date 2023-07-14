@@ -5412,8 +5412,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7627598838963537902, guid: b674567e4b6234be295edee100a60230, type: 3}
+    - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_Color.g
@@ -5421,7 +5425,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_Color.r
-      value: 0.92080235
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6476446677682641300, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: dialogue
@@ -8780,15 +8788,15 @@ PrefabInstance:
       objectReference: {fileID: 8118987598045993393, guid: d5472b0189d3441fa964ee9223a7a3e6, type: 3}
     - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 0.9528302
       objectReference: {fileID: 0}
     - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_Color.g
-      value: 0.78535163
+      value: 0.9528302
       objectReference: {fileID: 0}
     - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0.9528302
       objectReference: {fileID: 0}
     - target: {fileID: 6476446677682641300, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: dialogue
