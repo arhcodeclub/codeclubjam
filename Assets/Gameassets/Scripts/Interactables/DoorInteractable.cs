@@ -52,7 +52,5 @@ public class DoorInteractable : MonoBehaviour
         } else {
             player.transform.position = point1;
         }
-
-        Camera.main.GetComponent<CameraShake>().Shake(0.1f, 0.1f);
     }
 }
