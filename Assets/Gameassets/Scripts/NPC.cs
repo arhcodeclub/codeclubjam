@@ -17,20 +17,26 @@ public class NPC : MonoBehaviour
     public string requiredItem3 = "";
     public DSDialogue dialogueWithItem3 = null;
 
+
     public void startTalking()
     {
         if (inventorymanager.instance.checkItem(requiredItem))
         {
             dialogueWithItem.StartDialogue();
+            return;
         }else
         {
             if (inventorymanager.instance.checkItem(requiredItem2))
             {
                 dialogueWithItem2.StartDialogue();
+                return;
+
             }
             else if (inventorymanager.instance.checkItem(requiredItem3))
             {
                 dialogueWithItem3.StartDialogue();
+                return;
+
             }
             else dialogueWithoutItem.StartDialogue();
         }
