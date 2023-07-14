@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caaa76378291a144d849f29230be0a5a, type: 3}
+  m_Name: NPC2Street
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: NPC2Street
+  <DialogueGroups>k__BackingField:
+    list: []
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: 268832c9dd6b84ae995dbe7f7b2cc02f, type: 2}
+  - {fileID: 11400000, guid: 3ec67a1b0a0fd40dc95b933c4ecb63d6, type: 2}

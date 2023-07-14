@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caaa76378291a144d849f29230be0a5a, type: 3}
+  m_Name: NPC3Insidesupermarket
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: NPC3Insidesupermarket
+  <DialogueGroups>k__BackingField:
+    list: []
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: 013d8e821de7648269ed0dc6902aacc2, type: 2}
+  - {fileID: 11400000, guid: ca86addc672b040a2bd5f32caba3387a, type: 2}
+  - {fileID: 11400000, guid: 88af2a04ee84e4a15870da5966796bb6, type: 2}
+  - {fileID: 11400000, guid: d48df326a770749a6bd12f2017456c3c, type: 2}

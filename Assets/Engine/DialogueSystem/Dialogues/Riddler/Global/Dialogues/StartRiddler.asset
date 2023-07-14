@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
+  m_Name: StartRiddler
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: StartRiddler
+  <Speaker>k__BackingField: Riddler
+  <Text>k__BackingField: Hello, I can see that you want to know something, what is
+    your question?
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Which color wire do I need to cut to stop the nuclear
+      reactor?
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 2f473885020954f889ea2427c760c648, type: 2}
+  - <Text>k__BackingField: How do I defeat the guards?
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 22dfa6cb40cd84cf4be49cf34bae06e5, type: 2}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 1
+  <priority>k__BackingField: 0

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: NPC3InsidesupermarketGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: NPC3Insidesupermarket
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: f5d4095d-87be-4004-8154-f28bd4960f91
+    <Name>k__BackingField: NPC3
+    <Speaker>k__BackingField: Customer
+    <Text>k__BackingField: Hi, how are you?
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: I'm good, how are you?
+      <NodeID>k__BackingField: 9774ef01-db8c-46ad-b17f-9b9113e7bccf
+    - <Text>k__BackingField: I'm fine.
+      <NodeID>k__BackingField: 3ada45a0-9316-4bd5-8df5-e4277f14c776
+    - <Text>k__BackingField: My life sucks.
+      <NodeID>k__BackingField: 7c3a5594-d1f8-42c0-a37e-5d57b1da7d74
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: -764, y: -487}
+  - <ID>k__BackingField: 9774ef01-db8c-46ad-b17f-9b9113e7bccf
+    <Name>k__BackingField: NPC3good
+    <Speaker>k__BackingField: Customer
+    <Text>k__BackingField: I'm good too, thank you
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Good to hear, bye!
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -709, y: -148}
+  - <ID>k__BackingField: 3ada45a0-9316-4bd5-8df5-e4277f14c776
+    <Name>k__BackingField: NPC3fine
+    <Speaker>k__BackingField: Customer
+    <Text>k__BackingField: that's okay, not every day can be your best.
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Bye.
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -349.5, y: -562}
+  - <ID>k__BackingField: 7c3a5594-d1f8-42c0-a37e-5d57b1da7d74
+    <Name>k__BackingField: NPC3sucks
+    <Speaker>k__BackingField: Customer
+    <Text>k__BackingField: oh, well, maybe you should seek a new activity to have
+      fun.
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Okay, bye.
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -382.5, y: -335}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodeNames>k__BackingField:
+  - NPC3
+  - NPC3good
+  - NPC3fine
+  - NPC3sucks
+  <OldGroupedNodeNames>k__BackingField:
+    list: []

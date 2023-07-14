@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: DepressedNPC4outsideofsmallalleyGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: DepressedNPC4outsideofsmallalley
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 4bbb3c3f-0133-4a53-bc2e-4ed9f1776ae1
+    <Name>k__BackingField: DepressedNPC
+    <Speaker>k__BackingField: 'Person '
+    <Text>k__BackingField: I hate my life
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Uhhhh, okay...
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -555, y: -495.5}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodeNames>k__BackingField:
+  - DepressedNPC
+  <OldGroupedNodeNames>k__BackingField:
+    list: []

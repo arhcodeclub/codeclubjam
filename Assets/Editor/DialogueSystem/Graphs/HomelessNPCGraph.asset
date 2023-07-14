@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: HomelessNPCGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: HomelessNPC
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 7d682395-c15d-47a9-9095-8aa009fde40f
+    <Name>k__BackingField: HomelessStart
+    <Speaker>k__BackingField: Homeless
+    <Text>k__BackingField: Do you want to buy scissors?
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yeah, how much?
+      <NodeID>k__BackingField: ba069464-9f03-4b9a-a627-437ed5b3e3c2
+    - <Text>k__BackingField: No, sorry.
+      <NodeID>k__BackingField: fe16dbab-e830-4a54-abb9-3d530c9093fe
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: -575.5, y: 18.5}
+  - <ID>k__BackingField: fe16dbab-e830-4a54-abb9-3d530c9093fe
+    <Name>k__BackingField: NOscissors
+    <Speaker>k__BackingField: Homeless
+    <Text>k__BackingField: Oh okay, bye.
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Bye!
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 163.5, y: 232.5}
+  - <ID>k__BackingField: ba069464-9f03-4b9a-a627-437ed5b3e3c2
+    <Name>k__BackingField: PayForScissors
+    <Speaker>k__BackingField: 
+    <Text>k__BackingField: Event name...
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: 92a9e8a9-6c0e-41e5-be14-5eacfd1b9eca
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 2
+    <Position>k__BackingField: {x: 140.5, y: -12.5}
+  - <ID>k__BackingField: 92a9e8a9-6c0e-41e5-be14-5eacfd1b9eca
+    <Name>k__BackingField: RecieveScissors
+    <Speaker>k__BackingField: 
+    <Text>k__BackingField: Event name...
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: 0495aa57-49c4-45a4-add5-89011bc28926
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 2
+    <Position>k__BackingField: {x: 497.5, y: 5}
+  - <ID>k__BackingField: 0495aa57-49c4-45a4-add5-89011bc28926
+    <Name>k__BackingField: Homelesssaysthx
+    <Speaker>k__BackingField: Homeless
+    <Text>k__BackingField: Here you go!
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Thank you! Bye.
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 937, y: 217}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodeNames>k__BackingField:
+  - HomelessStart
+  - NOscissors
+  - PayForScissors
+  - RecieveScissors
+  - Homelesssaysthx
+  <OldGroupedNodeNames>k__BackingField:
+    list: []
