@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: GiveNormalDonutToGaurd
+  m_Name: Opendoor
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: GiveNormalDonutToGaurd
-  <Speaker>k__BackingField: Guard
-  <Text>k__BackingField: Yeah, sure, come in!
+  <DialogueName>k__BackingField: Opendoor
+  <Speaker>k__BackingField: bigdoor
+  <Text>k__BackingField: openDoor
   <Choices>k__BackingField:
-  - <Text>k__BackingField: Thank you!
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 916ce9aab307eb74691d0f13005c37f7, type: 2}
-  <DialogueType>k__BackingField: 0
+  - <Text>k__BackingField: Next
+    <NextDialogue>k__BackingField: {fileID: 0}
+  <DialogueType>k__BackingField: 2
   <IsStartingDialogue>k__BackingField: 0
   <priority>k__BackingField: 0
