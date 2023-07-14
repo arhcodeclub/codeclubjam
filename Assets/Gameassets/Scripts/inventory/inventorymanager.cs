@@ -12,6 +12,7 @@ public class inventorymanager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+        addmoney();
     }
 
     public void AddItem(GameObject itemToAdd)
@@ -46,16 +47,33 @@ public class inventorymanager : MonoBehaviour
     {
         foreach(var slot in slots)
         {
-            if (slot.itemInSlot.itemName == itemName)
+            if (slot.itemInSlot != null)
             {
-                Destroy(slot.itemInSlot);
-                slot.itemInSlot = null;
+                if (slot.itemInSlot.itemName == itemName)
+                {
+                    Destroy(slot.itemInSlot.gameObject);
+                    slot.itemInSlot = null;
+                }
             }
         }
     }
     public void removedonut()
     {
         RemoveItem("normaldonut");
+    }
+    public void removemoney()
+    {
+        RemoveItem("dollar");
+    }
+    public GameObject normaldonut;
+    public void addnormaldonut()
+    {
+        AddItem(normaldonut);
+    }
+    public GameObject dollar;
+    public void addmoney()
+    {
+        AddItem(dollar);
     }
 
 
