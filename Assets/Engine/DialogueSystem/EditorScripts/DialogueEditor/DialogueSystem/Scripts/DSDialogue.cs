@@ -25,8 +25,4 @@ public class DSDialogue : Interactable
             DialogueManager.instance.StartDialogue(dialogue, gameObject);
         }
 
-        public override void Interact()
-        {
-            StartDialogue();
-        }
     }

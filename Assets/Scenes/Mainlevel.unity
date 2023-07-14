@@ -797,7 +797,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11d000c709046ab428773e9a1653bff7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
+  anim: {fileID: 54385680}
 --- !u!1 &60897880
 GameObject:
   m_ObjectHideFlags: 0
@@ -1499,11 +1499,46 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6476446677682641300, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 1260bf72ac44c4d4d97687562dde7701, type: 2}
+    - target: {fileID: 6476446677682641300, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
+      propertyPath: dialogueContainer
+      value: 
+      objectReference: {fileID: 11400000, guid: d267a8a8a93c7224a99bb158b053494a, type: 2}
+    - target: {fileID: 8067156189114481673, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
+      propertyPath: requiredItem
+      value: AAAA
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067156189114481673, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
+      propertyPath: requiredItem2
+      value: AAA
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067156189114481673, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
+      propertyPath: requiredItem3
+      value: AAAA
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067156189114481673, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
+      propertyPath: dialogueWithoutItem
+      value: 
+      objectReference: {fileID: 135158462}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
+--- !u!114 &135158462 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6476446677682641300, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
+  m_PrefabInstance: {fileID: 135158461}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f70cf55b2086fe4e916735c1b64ee09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &136227261
 GameObject:
   m_ObjectHideFlags: 0
@@ -3606,7 +3641,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &361024529
 GameObject:
@@ -5164,7 +5199,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 070a52bf44b3d4503b6384640fb12478, type: 2}
     - target: {fileID: 1072375889731324166, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1072375889731324166, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5399,7 +5434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1072375889731324166, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1072375889731324166, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5480,18 +5515,18 @@ PrefabInstance:
     - target: {fileID: 6476446677682641300, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: dialogue
       value: 
-      objectReference: {fileID: 11400000, guid: 412e13f8a7c734ca6abcb3ca3c980349, type: 2}
+      objectReference: {fileID: 11400000, guid: b9a83c2feb184fc47a8883e9c168f235, type: 2}
     - target: {fileID: 6476446677682641300, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: dialogueContainer
       value: 
-      objectReference: {fileID: 11400000, guid: 8c3e8ee77ac64427ebc41f8bc8be431d, type: 2}
+      objectReference: {fileID: 11400000, guid: 5427d5794c73a484c8e7226613616673, type: 2}
     - target: {fileID: 8067156189114481673, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: requiredItem
-      value: normaldonut
+      value: wirecutter
       objectReference: {fileID: 0}
     - target: {fileID: 8067156189114481673, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: requiredItem2
-      value: poisonousdonut
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8067156189114481673, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: dialogueWithItem
@@ -5500,7 +5535,7 @@ PrefabInstance:
     - target: {fileID: 8067156189114481673, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: dialogueWithItem2
       value: 
-      objectReference: {fileID: 546566225}
+      objectReference: {fileID: 0}
     - target: {fileID: 8067156189114481673, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: dialogueWithoutItem
       value: 
@@ -5512,9 +5547,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 356157719421424344, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       insertIndex: -1
       addedObject: {fileID: 546566226}
-    - targetCorrespondingSourceObject: {fileID: 356157719421424344, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 546566225}
   m_SourcePrefab: {fileID: 100100000, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
 --- !u!1 &546566223 stripped
 GameObject:
@@ -5532,31 +5564,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f70cf55b2086fe4e916735c1b64ee09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &546566225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 546566223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f70cf55b2086fe4e916735c1b64ee09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnInteract:
-    m_PersistentCalls:
-      m_Calls: []
-  range: 1.5
-  currentTransform: {fileID: 0}
-  text: {fileID: 0}
-  dialogueContainer: {fileID: 11400000, guid: 79c4e5c7df6884ba6b93c923277fcbbb, type: 2}
-  dialogueGroup: {fileID: 0}
-  dialogue: {fileID: 11400000, guid: d70456f786ade4024873623141856246, type: 2}
-  groupedDialogues: 0
-  startingDialoguesOnly: 1
-  selectedDialogueGroupIndex: 0
-  selectedDialogueIndex: 0
 --- !u!114 &546566226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5575,13 +5582,13 @@ MonoBehaviour:
   range: 1.5
   currentTransform: {fileID: 0}
   text: {fileID: 0}
-  dialogueContainer: {fileID: 11400000, guid: 2b9bf5f3a07334a4cbf7cd1ac76df8db, type: 2}
+  dialogueContainer: {fileID: 11400000, guid: 5427d5794c73a484c8e7226613616673, type: 2}
   dialogueGroup: {fileID: 0}
-  dialogue: {fileID: 11400000, guid: 2edd7422d12ec42cc9ae2ca6ae7e4688, type: 2}
+  dialogue: {fileID: 11400000, guid: efb037ea45e9b3e4eace8149b7aea079, type: 2}
   groupedDialogues: 0
   startingDialoguesOnly: 1
   selectedDialogueGroupIndex: 0
-  selectedDialogueIndex: 0
+  selectedDialogueIndex: 1
 --- !u!1 &569901570
 GameObject:
   m_ObjectHideFlags: 0
@@ -7027,6 +7034,7 @@ MonoBehaviour:
   - {fileID: 1658444102}
   normaldonut: {fileID: 8015614615910882551, guid: 8c4edfd1374d0284386384ded252bcc6, type: 3}
   dollar: {fileID: 2030272327827496222, guid: ad652aa92de3e314984838339ec04503, type: 3}
+  wirecutter: {fileID: 5738672740203707088, guid: a7a8a37f959346a4cab9ff7e15789f4e, type: 3}
 --- !u!1 &679140639
 GameObject:
   m_ObjectHideFlags: 0
@@ -7193,7 +7201,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &697786307
 GameObject:
@@ -8515,7 +8523,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 070a52bf44b3d4503b6384640fb12478, type: 2}
     - target: {fileID: 1072375889731324166, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1072375889731324166, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9968,7 +9976,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1011608803
 GameObject:
@@ -18131,7 +18139,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1072375889731324166, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1072375889731324166, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18197,6 +18205,10 @@ PrefabInstance:
       propertyPath: dialogueContainer
       value: 
       objectReference: {fileID: 11400000, guid: bb694778f100542d2a8c187696c152aa, type: 2}
+    - target: {fileID: 8067156189114481673, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
+      propertyPath: requiredItem
+      value: AAAA
+      objectReference: {fileID: 0}
     - target: {fileID: 8067156189114481673, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: dialogueWithoutItem
       value: 
@@ -18742,7 +18754,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1734549036
 GameObject:
@@ -20032,7 +20044,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1839754573
 GameObject:

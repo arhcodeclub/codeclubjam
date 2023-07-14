@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
-  m_Name: PayForScissors
+  m_Name: Trashcan
   m_EditorClassIdentifier: 
-  <DialogueName>k__BackingField: PayForScissors
-  <Speaker>k__BackingField: GM
-  <Text>k__BackingField: removemoney
+  <DialogueName>k__BackingField: Trashcan
+  <Speaker>k__BackingField: Trashcan
+  <Text>k__BackingField: You rummage around in the trashcan
   <Choices>k__BackingField:
-  - <Text>k__BackingField: Next
-    <NextDialogue>k__BackingField: {fileID: 11400000, guid: be0580010343c45ceb113000d8a37c95, type: 2}
-  <DialogueType>k__BackingField: 2
-  <IsStartingDialogue>k__BackingField: 0
+  - <Text>k__BackingField: Find donut
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: accf60612aae29a4186d2d5fb49a48b7, type: 2}
+  <DialogueType>k__BackingField: 0
+  <IsStartingDialogue>k__BackingField: 1
   <priority>k__BackingField: 0

@@ -75,6 +75,11 @@ public class inventorymanager : MonoBehaviour
     {
         AddItem(dollar);
     }
+    public GameObject wirecutter;
+    public void addwirecutter()
+    {
+        AddItem(wirecutter);
+    }
 
 
 }
