@@ -631,6 +631,8 @@ MonoBehaviour:
   body: {fileID: 0}
   cam: {fileID: 2141656778}
   speed: 5
+  right: {fileID: 4859594651912511054, guid: 09b30b1f12bc74ef6a3954234cfa6171, type: 3}
+  idle: {fileID: 3657256932754973414, guid: 31ae2a74492074a839714a30f6421cc9, type: 3}
 --- !u!212 &1282927395
 SpriteRenderer:
   m_ObjectHideFlags: 0

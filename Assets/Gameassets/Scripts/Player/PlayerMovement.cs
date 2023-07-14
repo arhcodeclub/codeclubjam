@@ -9,7 +9,12 @@ public class PlayerManager : MonoBehaviour
 
     public GameObject cam;
 
-    public float speed = 5.0f;
+    public float speed = 5.0f;  
+
+    public Sprite right;
+    public Sprite idle;
+
+    private int sinceLastIdle = 0;
 
     private void Awake()
     {
@@ -20,9 +25,21 @@ public class PlayerManager : MonoBehaviour
     {
         body.velocity = input * speed;
 
-        // Change the sprite based on the direction the player is moving.
-        if (input.x > 0) {
-            
+        if (body.velocity.x > 0.5) {
+            GetComponent<SpriteRenderer>().sprite = right;
+            GetComponent<SpriteRenderer>().flipX = false;
+        } else if (body.velocity.x < -0.5) {
+            GetComponent<SpriteRenderer>().sprite = right;
+            GetComponent<SpriteRenderer>().flipX = true;
+        } else {
+            Debug.Log("Idle");
+            GetComponent<SpriteRenderer>().sprite = idle;
+            sinceLastIdle += 1;
+            if (sinceLastIdle > 50) {
+                Debug.Log("Flip");
+                GetComponent<SpriteRenderer>().flipX = !GetComponent<SpriteRenderer>().flipX;
+                sinceLastIdle = 0;
+            }
         }
         
         cam.transform.position = Vector3.Lerp(cam.transform.position, new Vector3(transform.position.x, transform.position.y, -10), 0.1f);
