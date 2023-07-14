@@ -6,9 +6,16 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
+    public DSDialogue dialogueWithoutItem = null;
+    [Header("item 1")]
     public string requiredItem = "";
     public DSDialogue dialogueWithItem = null;
-    public DSDialogue dialogueWithoutItem = null;
+    [Header("item 2")]
+    public string requiredItem2 = "";
+    public DSDialogue dialogueWithItem2 = null;
+    [Header("item 3")]
+    public string requiredItem3 = "";
+    public DSDialogue dialogueWithItem3 = null;
 
     public void startTalking()
     {
@@ -17,7 +24,15 @@ public class NPC : MonoBehaviour
             dialogueWithItem.StartDialogue();
         }else
         {
-            dialogueWithoutItem.StartDialogue();
+            if (inventorymanager.instance.checkItem(requiredItem2))
+            {
+                dialogueWithItem2.StartDialogue();
+            }
+            else if (inventorymanager.instance.checkItem(requiredItem3))
+            {
+                dialogueWithItem3.StartDialogue();
+            }
+            else dialogueWithoutItem.StartDialogue();
         }
     }
 

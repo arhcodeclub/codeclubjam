@@ -15,11 +15,13 @@ public class Gamemanager : MonoBehaviour
     bool anim = true;
     public ParticleSystem explosionparticles;
 
+    bool exploded = false;  
+
     void Update()
     {
         animationtimer -= Time.deltaTime;
         timeseconds += Time.deltaTime;
-        if (timeseconds > 60)
+        if (timeseconds >= 60)
         {
             timeminutes++;
             timeseconds = 0;
@@ -41,16 +43,20 @@ public class Gamemanager : MonoBehaviour
 
 
 
-        if (timeminutes > 20)
+        if (timeminutes >= 20)
         {
-            StartCoroutine(Reactorexplode());
+            if (!exploded)
+            {
+                exploded = true;
+                StartCoroutine(Reactorexplode());
+            }
         }
     }
 
     public IEnumerator Reactorexplode()
     {
         explosionparticles.Play();
-        yield return new WaitForSeconds(20);
+        yield return new WaitForSeconds(5);
         SceneManager.LoadScene("MainLevel");
     }
 }
