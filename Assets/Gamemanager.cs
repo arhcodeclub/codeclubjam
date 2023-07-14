@@ -72,7 +72,7 @@ public class Gamemanager : MonoBehaviour
         }
     }
     public GameObject victoryscreen;
-    public void win()
+    public void Win()
     {
         victoryscreen.SetActive(true);
     }
