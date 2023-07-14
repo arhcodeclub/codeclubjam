@@ -6,9 +6,14 @@ using UnityEngine.Events;
 public class DoorInteractable : MonoBehaviour
 {
     public UnityEvent OnInteract;
-    public GameObject player;
-
     public GameObject text;
+    public GameObject player;
+    private AudioSource audio;
+
+    private void Awake()
+    {
+        audio = GetComponent<AudioSource>();
+    }
 
     private void FixedUpdate() {
         Vector3 point1 = transform.GetChild(1).position;
@@ -18,8 +23,11 @@ public class DoorInteractable : MonoBehaviour
         float distance2 = Vector2.Distance(point2, player.transform.position);
 
         if (distance1 < 1.5f || distance2 < 1.5f) {
+            Debug.Log("In range");
             text.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E)) {
+                Debug.Log("Interacted");
+                audio.Play();
                 Interact();
             }
         } else {
