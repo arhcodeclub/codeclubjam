@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 43c078ffd05b6463685e662ccd941fe2
+guid: 1cbb536ee5f7140a6b406e6f6b07e091
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5679926325177872995
-    second: IMG_4294_0
+      213: 6854832151195983349
+    second: IMG_4303_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -94,41 +94,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_4294_0
+      name: IMG_4303_0
       rect:
         serializedVersion: 2
-        x: 504
-        y: 120
-        width: 392
-        height: 320
+        x: 399
+        y: 367
+        width: 106
+        height: 202
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9d026dc919dc21b0800000000000000
-      internalID: -5679926325177872995
+      spriteID: 5fd96f6e581412f50800000000000000
+      internalID: 6854832151195983349
       vertices: []
       indices: 
       edges: []
@@ -145,15 +121,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c260f441d8661460d87d21d92884abf4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      IMG_4294_0: -5679926325177872995
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
