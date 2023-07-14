@@ -53,7 +53,10 @@ public class inventorymanager : MonoBehaviour
             }
         }
     }
-
+    public void removedonut()
+    {
+        RemoveItem("normaldonut");
+    }
 
 
 }
