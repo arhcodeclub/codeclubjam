@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: RecieveScissors
   m_EditorClassIdentifier: 
   <DialogueName>k__BackingField: RecieveScissors
-  <Speaker>k__BackingField: 
-  <Text>k__BackingField: Event name...
+  <Speaker>k__BackingField: GM
+  <Text>k__BackingField: addwirecutter
   <Choices>k__BackingField:
   - <Text>k__BackingField: Next
     <NextDialogue>k__BackingField: {fileID: 11400000, guid: 562cc504b6a274c0ea0cfefcf3097c7f, type: 2}

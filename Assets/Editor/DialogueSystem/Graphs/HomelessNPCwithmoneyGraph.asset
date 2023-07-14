@@ -27,7 +27,7 @@ MonoBehaviour:
       <NodeID>k__BackingField: fe16dbab-e830-4a54-abb9-3d530c9093fe
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 1
-    <Position>k__BackingField: {x: -575.5, y: 18.5}
+    <Position>k__BackingField: {x: -575.2, y: 18.399998}
   - <ID>k__BackingField: fe16dbab-e830-4a54-abb9-3d530c9093fe
     <Name>k__BackingField: NOscissors
     <Speaker>k__BackingField: Homeless
@@ -38,29 +38,29 @@ MonoBehaviour:
       <NodeID>k__BackingField: 
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 163.5, y: 232.5}
+    <Position>k__BackingField: {x: 164, y: 232}
   - <ID>k__BackingField: ba069464-9f03-4b9a-a627-437ed5b3e3c2
     <Name>k__BackingField: PayForScissors
-    <Speaker>k__BackingField: 
-    <Text>k__BackingField: Event name...
+    <Speaker>k__BackingField: GM
+    <Text>k__BackingField: removemoney
     <priority>k__BackingField: 0
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next
       <NodeID>k__BackingField: 92a9e8a9-6c0e-41e5-be14-5eacfd1b9eca
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 2
-    <Position>k__BackingField: {x: 140.5, y: -12.5}
+    <Position>k__BackingField: {x: 140.8, y: -12.800001}
   - <ID>k__BackingField: 92a9e8a9-6c0e-41e5-be14-5eacfd1b9eca
     <Name>k__BackingField: RecieveScissors
-    <Speaker>k__BackingField: 
-    <Text>k__BackingField: Event name...
+    <Speaker>k__BackingField: GM
+    <Text>k__BackingField: addwirecutter
     <priority>k__BackingField: 0
     <Choices>k__BackingField:
     - <Text>k__BackingField: Next
       <NodeID>k__BackingField: 0495aa57-49c4-45a4-add5-89011bc28926
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 2
-    <Position>k__BackingField: {x: 497.5, y: 5}
+    <Position>k__BackingField: {x: 497.6, y: 4.799999}
   - <ID>k__BackingField: 0495aa57-49c4-45a4-add5-89011bc28926
     <Name>k__BackingField: Homelesssaysthx
     <Speaker>k__BackingField: Homeless
@@ -71,7 +71,7 @@ MonoBehaviour:
       <NodeID>k__BackingField: 
     <GroupID>k__BackingField: 
     <DialogueType>k__BackingField: 0
-    <Position>k__BackingField: {x: 937, y: 217}
+    <Position>k__BackingField: {x: 937.60004, y: 216.8}
   <OldGroupNames>k__BackingField: []
   <OldUngroupedNodeNames>k__BackingField:
   - HomelessStart
