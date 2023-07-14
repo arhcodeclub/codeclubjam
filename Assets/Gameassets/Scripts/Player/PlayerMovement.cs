@@ -32,11 +32,9 @@ public class PlayerManager : MonoBehaviour
             GetComponent<SpriteRenderer>().sprite = right;
             GetComponent<SpriteRenderer>().flipX = true;
         } else {
-            Debug.Log("Idle");
             GetComponent<SpriteRenderer>().sprite = idle;
             sinceLastIdle += 1;
             if (sinceLastIdle > 50) {
-                Debug.Log("Flip");
                 GetComponent<SpriteRenderer>().flipX = !GetComponent<SpriteRenderer>().flipX;
                 sinceLastIdle = 0;
             }
