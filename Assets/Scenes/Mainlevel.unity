@@ -5143,16 +5143,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1453917064439621711, guid: 54d75b63bb39b4547b48ec84606b5426, type: 3}
+    - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_Color.b
-      value: 0.6415094
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_Color.g
-      value: 0.111887194
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_Color.r
-      value: 0.033285867
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6476446677682641300, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: dialogue
@@ -7224,6 +7232,7 @@ MonoBehaviour:
   - {fileID: 1658444102}
   normaldonut: {fileID: 8015614615910882551, guid: 8c4edfd1374d0284386384ded252bcc6, type: 3}
   dollar: {fileID: 2030272327827496222, guid: ad652aa92de3e314984838339ec04503, type: 3}
+  wirecutter: {fileID: 0}
 --- !u!1 &679140639
 GameObject:
   m_ObjectHideFlags: 0
