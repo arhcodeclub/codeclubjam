@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8067156189114481673}
   - component: {fileID: 6868407381112256633}
   - component: {fileID: 6476446677682641300}
-  - component: {fileID: 838942047610804581}
   m_Layer: 0
   m_Name: genericnpc
   m_TagString: Untagged
@@ -49,9 +48,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36f414f8499c68f4c84b97cb23610fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueWithoutItem: {fileID: 0}
   requiredItem: 
   dialogueWithItem: {fileID: 6476446677682641300}
-  dialogueWithoutItem: {fileID: 838942047610804581}
+  requiredItem2: 
+  dialogueWithItem2: {fileID: 0}
+  requiredItem3: 
+  dialogueWithItem3: {fileID: 0}
 --- !u!114 &6868407381112256633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,30 +85,6 @@ MonoBehaviour:
   range: 2
   text: {fileID: 5429680132092330352}
 --- !u!114 &6476446677682641300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 356157719421424344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f70cf55b2086fe4e916735c1b64ee09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnInteract:
-    m_PersistentCalls:
-      m_Calls: []
-  range: 1.5
-  text: {fileID: 0}
-  dialogueContainer: {fileID: 11400000, guid: 307e7d53d9f49b048bcb764f46a731a5, type: 2}
-  dialogueGroup: {fileID: 0}
-  dialogue: {fileID: 11400000, guid: 2b3849056095f3b4da62a41fea2f2b04, type: 2}
-  groupedDialogues: 0
-  startingDialoguesOnly: 1
-  selectedDialogueGroupIndex: 0
-  selectedDialogueIndex: 0
---- !u!114 &838942047610804581
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
