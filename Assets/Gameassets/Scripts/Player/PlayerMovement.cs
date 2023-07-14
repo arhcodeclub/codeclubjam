@@ -24,14 +24,21 @@ public class PlayerManager : MonoBehaviour
         input = inputValue.Get<Vector2>();
     }
 
+    private void OnLook(InputValue inputValue)
+    {
+        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
+        if (hit.collider.gameObject.tag == "Interactable") {
+            // todo: draw text above object
+        }
+    }
+
     private void OnFire(InputValue inputValue)
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
-        Debug.Log(hit.collider);
-        Debug.Log(hit);
-        if (hit.collider != null) {
-            Debug.Log(hit.collider.gameObject.tag);
+        if (hit.collider.gameObject.tag == "Interactable") {
+            // todo: interact with object
         }
     }
 }
