@@ -24,6 +24,8 @@ public class DoorInteractable : MonoBehaviour
 
         if (distance1 < 1.5f || distance2 < 1.5f) {
             Debug.Log("In range");
+            transform.GetChild(1).transform.GetChild(0).gameObject.SetActive(true);
+            transform.GetChild(2).transform.GetChild(0).gameObject.SetActive(true);
             text.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E)) {
                 Debug.Log("Interacted");
@@ -32,6 +34,8 @@ public class DoorInteractable : MonoBehaviour
             }
         } else {
             text.SetActive(false);
+            transform.GetChild(1).transform.GetChild(0).gameObject.SetActive(true);
+            transform.GetChild(2).transform.GetChild(0).gameObject.SetActive(true);
         }
     }
 
