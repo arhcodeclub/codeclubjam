@@ -24,13 +24,11 @@ public class PlayerManager : MonoBehaviour
         input = inputValue.Get<Vector2>();
     }
 
-    // Interacting with objects
-    private void OnClick(InputValue inputValue)
+    private void OnFire(InputValue inputValue)
     {
-        Debug.Log("Click");
-        Vector2 mousePos = Camera.main.ScreenToWorldPoint(inputValue.Get<Vector2>());
-        Debug.Log(mousePos);
+        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
+        Debug.Log(hit.collider);
         Debug.Log(hit);
         if (hit.collider != null) {
             Debug.Log(hit.collider.gameObject.tag);
