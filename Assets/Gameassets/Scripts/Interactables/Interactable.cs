@@ -12,6 +12,8 @@ public class Interactable : MonoBehaviour
 
     public GameObject text;
 
+    float cooldown = 1;
+
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -19,21 +21,30 @@ public class Interactable : MonoBehaviour
     }
     float distance1;
     private void FixedUpdate() {
-
+        cooldown -= Time.deltaTime;
         distance1 = Vector2.Distance(currentTransform.position, player.transform.position);
 
-        if (distance1 < range) {
-            if (Input.GetKeyDown(KeyCode.E)) {
-                Interact();
-            }
-            if (text != null)
+        if (cooldown <= 0)
+        {
+            if (distance1 < range)
             {
-                text.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    Interact();
+                    cooldown = 0.5f;
+
+                }
+                if (text != null)
+                {
+                    text.SetActive(true);
+                }
             }
-        } else {
-            if (text != null)
+            else
             {
-                text.SetActive(false);
+                if (text != null)
+                {
+                    text.SetActive(false);
+                }
             }
         }
     }

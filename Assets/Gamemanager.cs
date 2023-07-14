@@ -53,7 +53,7 @@ public class Gamemanager : MonoBehaviour
 
 
 
-        if (timeminutes >= 20)
+        if (timeminutes >= 15)
         {
             if (!exploded)
             {
@@ -70,6 +70,11 @@ public class Gamemanager : MonoBehaviour
             exploded = true;
             StartCoroutine(Reactorexplode());
         }
+    }
+    public GameObject victoryscreen;
+    public void win()
+    {
+        victoryscreen.SetActive(true);
     }
 
     public IEnumerator Reactorexplode()
