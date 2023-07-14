@@ -17,10 +17,10 @@ public class Interactable : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         currentTransform = transform;
     }
-
+    float distance1;
     private void FixedUpdate() {
 
-        float distance1 = Vector2.Distance(currentTransform.position, player.transform.position);
+        distance1 = Vector2.Distance(currentTransform.position, player.transform.position);
 
         if (distance1 < range) {
             if (Input.GetKeyDown(KeyCode.E)) {
