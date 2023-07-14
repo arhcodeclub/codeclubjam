@@ -20,10 +20,11 @@ public class inventorymanager : MonoBehaviour
         {
             if (slot.itemInSlot == null)
             {
-                Instantiate(itemToAdd);
-                itemToAdd.GetComponent<item>().slot = slot;
+                GameObject spawned = Instantiate(itemToAdd);
+                spawned.GetComponent<item>().slot = slot;
                 slot.itemInSlot = itemToAdd.GetComponent<item>();
-                itemToAdd.transform.SetParent(slot.transform, false);
+                spawned.transform.SetParent(slot.transform, false);
+                return;
             }
         }
     }
