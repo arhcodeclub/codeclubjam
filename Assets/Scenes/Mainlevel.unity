@@ -16996,16 +16996,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3956712963763979576, guid: 77b0f8f20dd0b490f8ac209b6cf35c62, type: 3}
+    - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0.9716981
       objectReference: {fileID: 0}
     - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 0.9716981
       objectReference: {fileID: 0}
     - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: m_Color.r
-      value: 0.53671026
+      value: 0.9716981
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260071794368302797, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6476446677682641300, guid: 9dc7ef70c62105c47ab7488a61fb3632, type: 3}
       propertyPath: dialogue
