@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
+  m_Name: Movement
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: Movement
+  <Speaker>k__BackingField: Signy the sign
+  <Text>k__BackingField: 'Did you know you can walk by pressing the movement keys!
+
+    <wait
+    100> Isn''t that cool, being able to walk, <wait 100>with your cool legs  :('
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Cool!
+    <NextDialogue>k__BackingField: {fileID: 0}
+  - <Text>k__BackingField: Ha! Imagine not having legs smh
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 99e2b81077b0e28f1aaf3d1f1b0e246a, type: 2}
+  - <Text>k__BackingField: What are movement keys?
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 0b922c779cb5c404b9456d1c7301973e, type: 2}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0
+  <priority>k__BackingField: 0

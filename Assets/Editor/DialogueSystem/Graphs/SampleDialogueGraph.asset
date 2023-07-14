@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: SampleDialogueGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: SampleDialogue
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 309470f4-05d9-417a-8469-0442ca6b6552
+    <Name>k__BackingField: DialogueGroup
+    <Position>k__BackingField: {x: 1257, y: 864}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: f0841da7-b694-4762-b0c0-9e818a8f1480
+    <Name>k__BackingField: EVENT
+    <Speaker>k__BackingField: EventCaller
+    <Text>k__BackingField: TestFunction
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: 818efce9-7fbf-47c3-af05-cc4544509e37
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 2
+    <Position>k__BackingField: {x: 3022, y: 246}
+  - <ID>k__BackingField: 623c983a-0d5d-4fe7-bcfa-4f750c717700
+    <Name>k__BackingField: GroupRoot
+    <Speaker>k__BackingField: Grouper
+    <Text>k__BackingField: You can also group dialogue nodes!
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: 1
+      <NodeID>k__BackingField: 6c11a38f-c4d8-4286-b701-dfaf2eccc739
+    - <Text>k__BackingField: 2
+      <NodeID>k__BackingField: 6c11a38f-c4d8-4286-b701-dfaf2eccc739
+    <GroupID>k__BackingField: 309470f4-05d9-417a-8469-0442ca6b6552
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1282, y: 923}
+  - <ID>k__BackingField: 6c11a38f-c4d8-4286-b701-dfaf2eccc739
+    <Name>k__BackingField: DialogueName
+    <Speaker>k__BackingField: Grouper
+    <Text>k__BackingField: This can be used if you want to find a conversation based
+      on a certain group within a graph
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 309470f4-05d9-417a-8469-0442ca6b6552
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1739, y: 957}
+  - <ID>k__BackingField: 4597ed91-5d67-450a-80f0-19fad941c19d
+    <Name>k__BackingField: Root
+    <Speaker>k__BackingField: Developer
+    <Text>k__BackingField: This is a root node! A root node can be any dialogue node
+      type
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: ae88d134-a6bf-416f-8bb7-e02896b4fdb1
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -167, y: 237}
+  - <ID>k__BackingField: ae88d134-a6bf-416f-8bb7-e02896b4fdb1
+    <Name>k__BackingField: SingleChoice
+    <Speaker>k__BackingField: Developer
+    <Text>k__BackingField: This node only has a single choice
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: 1cfb587b-01fc-45da-a9b2-d11120883a64
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 577, y: 237}
+  - <ID>k__BackingField: 79f19a62-5249-4150-8861-c8b5bec8e368
+    <Name>k__BackingField: Choice1
+    <Speaker>k__BackingField: Developer
+    <Text>k__BackingField: You choze choice 1
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: b013d24a-a943-4858-a59c-2aa97dad363e
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1549, y: -123}
+  - <ID>k__BackingField: 1cfb587b-01fc-45da-a9b2-d11120883a64
+    <Name>k__BackingField: MultipleChoice
+    <Speaker>k__BackingField: Developer
+    <Text>k__BackingField: But this one has multiple!
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Choice 1
+      <NodeID>k__BackingField: 79f19a62-5249-4150-8861-c8b5bec8e368
+    - <Text>k__BackingField: Choice 2
+      <NodeID>k__BackingField: 22fdac92-cb27-4eed-841b-77fc02c79a46
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 762, y: -194}
+  - <ID>k__BackingField: 22fdac92-cb27-4eed-841b-77fc02c79a46
+    <Name>k__BackingField: Choice2
+    <Speaker>k__BackingField: Developer
+    <Text>k__BackingField: You choze choice 2
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: b013d24a-a943-4858-a59c-2aa97dad363e
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1228, y: 532}
+  - <ID>k__BackingField: b013d24a-a943-4858-a59c-2aa97dad363e
+    <Name>k__BackingField: Effects
+    <Speaker>k__BackingField: Effects
+    <Text>k__BackingField: 'There can also be <wavy>Effects</wavy>.
+
+      They can
+      be used<shaky> Anywhere</shaky>'
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: f6733198-a70b-4cfc-963b-966c7d06e9b3
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1603, y: 237}
+  - <ID>k__BackingField: f6733198-a70b-4cfc-963b-966c7d06e9b3
+    <Name>k__BackingField: Events
+    <Speaker>k__BackingField: EVENTS
+    <Text>k__BackingField: Lastly you can call functions from dialogue using the
+      Event Node
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: f0841da7-b694-4762-b0c0-9e818a8f1480
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2355, y: 70}
+  - <ID>k__BackingField: 818efce9-7fbf-47c3-af05-cc4544509e37
+    <Name>k__BackingField: Wait
+    <Speaker>k__BackingField: Developer
+    <Text>k__BackingField: 'And you can even cause a little pause <wait 500>
+
+      The
+      amount of wait is in miliseconds, <wait 500> isn''t that neat?'
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3485, y: 224}
+  <OldGroupNames>k__BackingField:
+  - DialogueGroup
+  <OldUngroupedNodeNames>k__BackingField:
+  - EVENT
+  - Root
+  - SingleChoice
+  - Choice1
+  - MultipleChoice
+  - Choice2
+  - Effects
+  - Events
+  - Wait
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: DialogueGroup
+      Value:
+      - GroupRoot
+      - DialogueName

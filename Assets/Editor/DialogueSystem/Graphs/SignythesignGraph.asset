@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: SignythesignGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Signythesign
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: df64bae8-f4d0-4dfd-8d53-c93860620100
+    <Name>k__BackingField: Pacifist
+    <Speaker>k__BackingField: Signy the sign
+    <Text>k__BackingField: You won't survive long then
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: violence is never the answer!
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 515, y: 337}
+  - <ID>k__BackingField: 0a67c3a9-ae64-4fa7-9b02-f5c22fa54a0d
+    <Name>k__BackingField: Locking
+    <Speaker>k__BackingField: Signy the sign
+    <Text>k__BackingField: '<anim=Happy>You change lock by pressing [Q] or [Right
+      thumbstick press]
+
+      Or autolock by attacking
+
+      <wait 100>
+
+      You
+      do a light attack by pressing [Left mouse button] or [Right trigger]
+
+      and
+      a heavy attack by pressing [Right mouse button] or [Left trigger]
+
+'
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Ok nerd
+      <NodeID>k__BackingField: 
+    - <Text>k__BackingField: Thanks for the info!
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 505, y: -59}
+  - <ID>k__BackingField: 60b7e6ba-dd4e-4427-8f98-1d0009b0bcc9
+    <Name>k__BackingField: Attacktutorial
+    <Speaker>k__BackingField: Signy the sign
+    <Text>k__BackingField: '<anim=Evil>Hey it''s me again!
+
+      Look at that dummy
+      over there lets <s>MURDER</> it
+
+'
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Hell Yeah! MURDER!!!
+      <NodeID>k__BackingField: 0a67c3a9-ae64-4fa7-9b02-f5c22fa54a0d
+    - <Text>k__BackingField: No i am a pacifist
+      <NodeID>k__BackingField: df64bae8-f4d0-4dfd-8d53-c93860620100
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: -220, y: 170}
+  - <ID>k__BackingField: 0f0d03a8-8df3-4e81-b994-a1c3f11bc487
+    <Name>k__BackingField: Thewaytogo
+    <Speaker>k__BackingField: Signy the sign
+    <Text>k__BackingField: 'So now you know the basics very cool!
+
+      Now you
+      can totally beat the <s>evil</> monster leader in the woods.
+
+      They''ve
+      done horrible things and should be defeated!'
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: ...
+      <NodeID>k__BackingField: 68f90178-8754-4876-8e19-2ddc4ceb74c8
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: -220, y: 786}
+  - <ID>k__BackingField: 68f90178-8754-4876-8e19-2ddc4ceb74c8
+    <Name>k__BackingField: Directions
+    <Speaker>k__BackingField: Signy the sign
+    <Text>k__BackingField: 'Just follow the path through the dark forest south.
+
+      Stay
+      on the path to avoid the <s>monsters</>
+
+
+      See you soon :D'
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Bye!
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 512, y: 775}
+  - <ID>k__BackingField: 9e1d6f4b-a1bd-4e06-a13d-5f69dd5950e7
+    <Name>k__BackingField: Wrongway
+    <Speaker>k__BackingField: Signy the sign
+    <Text>k__BackingField: 'Wrong way dummy!
+
+      The boss was to other way, Go
+      back!'
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Oops, i'll head back
+      <NodeID>k__BackingField: 
+    - <Text>k__BackingField: But what's over here
+      <NodeID>k__BackingField: 2aa3b641-2d01-4773-91fa-3157d392e30b
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: -141, y: 1297}
+  - <ID>k__BackingField: 2aa3b641-2d01-4773-91fa-3157d392e30b
+    <Name>k__BackingField: Whatsoverhere
+    <Speaker>k__BackingField: Signy the sign
+    <Text>k__BackingField: Just some deserted town called whitebridge with nothing
+      and nobody to help you. Everybody there is dead you have nobody to help you,
+      you are totaly alone.
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: '*Walk back*'
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 541, y: 1374}
+  - <ID>k__BackingField: d91f745f-6d7d-4457-a25f-70a9c97a063e
+    <Name>k__BackingField: Movement
+    <Speaker>k__BackingField: Signy the sign
+    <Text>k__BackingField: 'Did you know you can walk by pressing the movement keys!
+
+      <wait
+      100> Isn''t that cool, being able to walk, <wait 100>with your cool legs  :('
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Cool!
+      <NodeID>k__BackingField: 
+    - <Text>k__BackingField: Ha! Imagine not having legs smh
+      <NodeID>k__BackingField: ca2836cf-1e5c-4f4b-b07a-61ac6fe0dcb8
+    - <Text>k__BackingField: What are movement keys?
+      <NodeID>k__BackingField: 7a908a17-a3c3-47ef-9321-7277fd72f041
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 505, y: -478}
+  - <ID>k__BackingField: 07f29881-26a8-4f39-b268-1977adb23cfa
+    <Name>k__BackingField: Welcome
+    <Speaker>k__BackingField: Signy the sign
+    <Text>k__BackingField: <anim=Happy>Hi i'm signy, <wait 100>I am very smart sign!
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Hi!
+      <NodeID>k__BackingField: d91f745f-6d7d-4457-a25f-70a9c97a063e
+    - <Text>k__BackingField: Dont care, bye
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: -246, y: -465}
+  - <ID>k__BackingField: ca2836cf-1e5c-4f4b-b07a-61ac6fe0dcb8
+    <Name>k__BackingField: uncalled
+    <Speaker>k__BackingField: Signy the sign
+    <Text>k__BackingField: <anim=Sad>That was uncalled for :(
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: ...
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1318, y: -428}
+  - <ID>k__BackingField: 7a908a17-a3c3-47ef-9321-7277fd72f041
+    <Name>k__BackingField: MovementKeys
+    <Speaker>k__BackingField: Signy the sign
+    <Text>k__BackingField: 'The keys that make you move of course silly!
+
+      (WASD
+      / Left Stick)'
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Okay!
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1318, y: -167}
+  - <ID>k__BackingField: 2ca23f97-d3b5-4338-83e0-a91c18fd4382
+    <Name>k__BackingField: Totallywrongway
+    <Speaker>k__BackingField: Signy the sign
+    <Text>k__BackingField: 'I told you this is the wrong way!
+
+      Luckily these
+      boulders just happened to have fallen down making you have get back on track.'
+    <priority>k__BackingField: 0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: ...
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -140, y: 1833}
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodeNames>k__BackingField:
+  - Pacifist
+  - Locking
+  - Attacktutorial
+  - Thewaytogo
+  - Directions
+  - Wrongway
+  - Whatsoverhere
+  - Movement
+  - Welcome
+  - uncalled
+  - MovementKeys
+  - Totallywrongway
+  <OldGroupedNodeNames>k__BackingField:
+    list: []

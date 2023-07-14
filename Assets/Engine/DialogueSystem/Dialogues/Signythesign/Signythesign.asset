@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caaa76378291a144d849f29230be0a5a, type: 3}
+  m_Name: Signythesign
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Signythesign
+  <DialogueGroups>k__BackingField:
+    list: []
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: f91deaef1299c9f439b41f74aa27bc1b, type: 2}
+  - {fileID: 11400000, guid: 948abed76a7d2ef3fbc2dbd760f24945, type: 2}
+  - {fileID: 11400000, guid: a95e0a9e311376072ac70632e2d5c8ef, type: 2}
+  - {fileID: 11400000, guid: 31dde439ef3b4abdaa536dd0dcc2d91a, type: 2}
+  - {fileID: 11400000, guid: 7d90f11c6506b2d08bbf4f9b92abd497, type: 2}
+  - {fileID: 11400000, guid: 863e4c077d0cba6f1a374dbe8ef51651, type: 2}
+  - {fileID: 11400000, guid: 15527eea76a9e1663852e27002b0d090, type: 2}
+  - {fileID: 11400000, guid: 99a2266ae476836f3af19ec330217e65, type: 2}
+  - {fileID: 11400000, guid: e2dc8ef9c1258b65da8ab5493b4b828a, type: 2}
+  - {fileID: 11400000, guid: 99e2b81077b0e28f1aaf3d1f1b0e246a, type: 2}
+  - {fileID: 11400000, guid: 0b922c779cb5c404b9456d1c7301973e, type: 2}
+  - {fileID: 11400000, guid: 4cd882b8ce57bb219bbde0020f29912c, type: 2}
